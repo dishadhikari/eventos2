@@ -1,0 +1,134 @@
+
+
+.register-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, #f8faff 0%, #edf2f9 100%);
+  padding: 2rem;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.register-box {
+  max-width: 700px;
+  width: 100%;
+  background: white;
+  border-radius: 40px;
+  padding: 3rem 2.5rem;
+  box-shadow: 0 30px 60px -20px rgba(0, 40, 80, 0.25);
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+.register-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #0a1a2a;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.register-subtitle {
+  font-size: 1.1rem;
+  color: #4b5e71;
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+}
+
+.role-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.role-link {
+  text-decoration: none;
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+.role-option {
+  background: #ffffff;
+  border: 2px solid #e6edf5;
+  border-radius: 28px;
+  padding: 2rem 1rem;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 8px 20px -8px rgba(0,20,40,0.1);
+}
+
+.admin-option:hover {
+  border-color: var(--primary);
+  background: var(--primary-light);
+  transform: scale(1.02);
+  box-shadow: 0 15px 30px -10px #4361ee40;
+}
+
+.participant-option:hover {
+  border-color: var(--primary-hover);
+  background: #fff0f7;
+  transform: scale(1.02);
+  box-shadow: 0 15px 30px -10px #f7258540;
+}
+
+.role-icon {
+  color: #1e2f40;
+  margin-bottom: 1rem;
+}
+
+.admin-option:hover .role-icon {
+  color: #4361ee;
+}
+
+.participant-option:hover .role-icon {
+  color: #f72585;
+}
+
+.role-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0f263b;
+  margin-bottom: 0.25rem;
+}
+
+.role-badge {
+  font-size: 0.9rem;
+  color: var(--badge-text);
+  background: var(--badge-bg);
+  padding: 0.3rem 1rem;
+  border-radius: 30px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.admin-option:hover .role-badge {
+  background: var(--primary);
+  color: white;
+}
+
+.participant-option:hover .role-badge {
+  background: #f72585;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .register-box {
+    padding: 2rem 1.5rem;
+  }
+  .register-title {
+    font-size: 2rem;
+  }
+  .role-option {
+    padding: 1.5rem 0.5rem;
+  }
+  .role-name {
+    font-size: 1.5rem;
+  }
+}

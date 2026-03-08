@@ -1,0 +1,70 @@
+
+:root {
+  --primary: #3498db;
+  --primary-hover: #2980b9;
+  --primary-light: #e8f0fe;
+  --label-color: #1e3a8a;
+  --link-color: #2563eb;
+  --link-hover: #1d4ed8;
+  --button-text: white;
+  --footer-link: #2563eb;
+  --badge-bg: #edf2f9;
+  --badge-text: #6b7f92;
+  --input-border: #d1d9e6;
+  --input-focus: #2563eb;
+}
+
+.theme-green {
+  --primary: #2ecc71;
+  --primary-hover: #27ae60;
+  --primary-light: #e8f8f0;
+  --label-color: #27ae60;
+  --link-color: #2ecc71;
+  --link-hover: #27ae60;
+  --footer-link: #2ecc71;
+  --badge-bg: #d5f5e3;
+  --badge-text: #145a32;
+  --input-focus: #2ecc71;
+}
+
+.theme-blue {
+
+  --primary: #3498db;
+  --primary-hover: #2980b9;
+  --primary-light: #e8f0fe;
+  --label-color: #1e3a8a;
+  --link-color: #2563eb;
+  --link-hover: #1d4ed8;
+  --footer-link: #2563eb;
+  --badge-bg: #edf2f9;
+  --badge-text: #6b7f92;
+  --input-focus: #2563eb;
+}
+
+.theme-black {
+  --primary: #2c3e50;
+  --primary-hover: #1a252f;
+  --primary-light: #ecf0f1;
+  --label-color: #2c3e50;
+  --link-color: #2c3e50;
+  --link-hover: #1a252f;
+  --footer-link: #2c3e50;
+  --badge-bg: #bdc3c7;
+  --badge-text: #2c3e50;
+  --input-border: #95a5a6;
+  --input-focus: #2c3e50;
+}
+
+.theme-offwhite {
+  --primary: #b0b0b0;
+  --primary-hover: #909090;
+  --primary-light: #f5f5f5;
+  --label-color: #555555;
+  --link-color: #b0b0b0;
+  --link-hover: #909090;
+  --footer-link: #b0b0b0;
+  --badge-bg: #e0e0e0;
+  --badge-text: #333333;
+  --input-border: #cccccc;
+  --input-focus: #b0b0b0;
+}
